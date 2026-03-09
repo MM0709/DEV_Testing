@@ -10,6 +10,6 @@ Alter PROCEDURE [dbo].[Fx_Updates_Region_count](  @group_Id INT, @Counts NVARCHA
 AS  
 BEGIN  
 	UPDATE DGDB_PL..FX_UPDATES_COUNTS SET Counts = @Counts WHERE Group_Id = @group_Id 
-	print '14'
+	print '15'
 END
 Go
